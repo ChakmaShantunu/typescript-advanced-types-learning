@@ -5,10 +5,10 @@ let number = num as number;
 
 console.log(Number(number) + 8);
 
-// let random: unknown = "Shantunu Chakma";
 
-// // 👉 এটাকে string হিসেবে assert করে এর first 3 letter বের করো।
+// 👉 এটাকে string হিসেবে assert করে এর first 3 letter বের করো।
+let random: unknown = "Shantunu Chakma";
 
-// let user = (random as string).slice(0, 3);
-// console.log(user);
+let user = (random as string).slice(0, 3);
+console.log(user);
 
