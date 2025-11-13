@@ -26,3 +26,19 @@ const data = {
 
 const user = data as User;
 console.log(user.name);
+
+// 👉 response কে Todo হিসেবে assert করে title প্রিন্ট করো।
+const response: any = {
+  id: 1,
+  title: "Learning TypeScript",
+  completed: false
+};
+
+interface Todo {
+  id: number;
+  title: string;
+  completed: boolean;
+};
+
+const result = response as Todo;
+console.log(result.title);
