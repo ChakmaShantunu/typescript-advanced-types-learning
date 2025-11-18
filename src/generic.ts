@@ -1,6 +1,14 @@
 
 type GenericArray<T> = Array<T>
 
+interface User {
+    name: string;
+    age: number;
+}
+
+const users: GenericArray<User> = [
+    { name: 'shantunu', age: 30 }, { name: 'supta', age: 23 }
+];
 const friends: GenericArray<string> = ['shantunu', 'supta', 'sadhana'];
 const rolleNumber: GenericArray<number> = [10, 20, 30];
 const isElligible: GenericArray<boolean> = [true, false, true];
